@@ -3,7 +3,7 @@ email: basoko@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   David Basoco personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://basoko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://davidbasoco.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: davidbasoko
 github_username:  basoko
 assets_path: /assets
