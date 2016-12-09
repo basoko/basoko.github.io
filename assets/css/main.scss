@@ -22,6 +22,19 @@ html, body {
     flex-direction: column;
     align-items: center;
 
+    h1 {
+        margin: 20px 0;
+        font-size: 4em;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 20px 0;
+        font-size: 2.5em;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+    }
 }
 
 .profile_img {
@@ -30,28 +43,15 @@ html, body {
     border-radius: 50%;
 }
 
-.profile h1 {
-    margin: 20px 0;
-    font-size: 4em;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-}
-
-.profile h2 {
-    margin: 20px 0;
-    font-size: 2.5em;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-}
 
 .profile_links {
     width: 75%;
     margin: 40px auto;
-}
 
-.profile_links ul {
-    display: flex;
-    justify-content: space-around;
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 .social_icon {
