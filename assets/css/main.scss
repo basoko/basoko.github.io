@@ -45,7 +45,8 @@ html, body {
 
 
 .profile_links {
-    width: 75%;
+    width: 80%;
+    max-width: 33%;
     margin: 40px auto;
 
     ul {
@@ -57,4 +58,14 @@ html, body {
 .social_icon {
     widht: 50px;
     height: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    .profile_links {
+        max-width: 100%;
+    }
 }
