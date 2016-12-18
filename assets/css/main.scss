@@ -52,6 +52,12 @@ html, body {
     ul {
         display: flex;
         justify-content: space-around;
+
+        li:hover {
+            opacity: 1;
+	          -webkit-animation: flash 1.5s;
+	          animation: flash 1.5s;
+        }
     }
 }
 
@@ -68,4 +74,13 @@ html, body {
     .profile_links {
         max-width: 100%;
     }
+}
+
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
